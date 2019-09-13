@@ -21,8 +21,11 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <marker date="1568376442198" expanded="true" signature="1237:1501" ph="do ... end" />
+                <marker date="1568376442198" expanded="true" signature="1522:1878" ph="do ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,9 +66,9 @@
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="53" />
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <marker date="1568375109958" expanded="true" signature="386:583" ph="##..." />
+                <marker date="1568376590394" expanded="true" signature="386:583" ph="##..." />
               </folding>
             </state>
           </provider>
@@ -590,12 +593,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568309099484</updated>
       <workItem from="1568309101039" duration="6611000" />
-      <workItem from="1568367999698" duration="6032000" />
+      <workItem from="1568367999698" duration="6252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12643000" />
+    <option name="totallyTimeSpent" value="12863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -780,17 +783,20 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1568376442198" expanded="true" signature="1237:1501" ph="do ... end" />
+            <marker date="1568376442198" expanded="true" signature="1522:1878" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="53" />
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1568375109958" expanded="true" signature="386:583" ph="##..." />
+            <marker date="1568376590394" expanded="true" signature="386:583" ph="##..." />
           </folding>
         </state>
       </provider>
