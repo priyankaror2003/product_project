@@ -7,7 +7,7 @@ end
 ruby "2.5.0"
 
 gem "faker", "~> 2.3"
-#gem 'mysql2'
+gem 'mysql2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
