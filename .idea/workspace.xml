@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a34a031-318f-46e7-9d53-d0f2ff2a50e3" name="Default" comment="" />
+    <list default="true" id="0a34a031-318f-46e7-9d53-d0f2ff2a50e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -21,10 +23,10 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <marker date="1568376442198" expanded="true" signature="1237:1501" ph="do ... end" />
-                <marker date="1568376442198" expanded="true" signature="1522:1878" ph="do ... end" />
+                <marker date="1568377053506" expanded="true" signature="1247:1511" ph="do ... end" />
+                <marker date="1568377053506" expanded="true" signature="1532:1888" ph="do ... end" />
               </folding>
             </state>
           </provider>
@@ -783,10 +785,10 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1568376442198" expanded="true" signature="1237:1501" ph="do ... end" />
-            <marker date="1568376442198" expanded="true" signature="1522:1878" ph="do ... end" />
+            <marker date="1568377053506" expanded="true" signature="1247:1511" ph="do ... end" />
+            <marker date="1568377053506" expanded="true" signature="1532:1888" ph="do ... end" />
           </folding>
         </state>
       </provider>
