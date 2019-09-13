@@ -24,4 +24,4 @@ require 'faker'
 
 end
 
-User.create(email:"text@gmail.com",password:"123456")
+User.create(email:"test@gmail.com",password:"password")
