@@ -16,26 +16,28 @@
   <h2>Product List</h2>
   <table class="table table-striped">
     <% if @get_product.present? %>
-      <thead>
-      <tr>
-        <th>Product Name</th>
-        <th>Model</th>
-        <th>Brand</th>
-        <th>Year</th>
-        <th>Ram External Storage</th>
-      </tr>
-      </thead>
-      <tbody>
-      <% @get_product.each_with_index do |product,idx| %>
-      <tr>
-        <td><%= product.name%></td>
-        <td><%= product.model%></td>
-        <td><%= product.brand%></td>
-        <td><%= product.year%></td>
-        <td><%= product.ram_external_storage%></td>
-      </tr>
-    <% end %>
-      </tbody>
+        <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Model</th>
+          <th>Brand</th>
+          <th>Year</th>
+          <th>Ram </th>
+          <th>External Storage </th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @get_product.each_with_index do |product,idx| %>
+            <tr>
+              <td><%= product.name%></td>
+              <td><%= product.model%></td>
+              <td><%= product.brand%></td>
+              <td><%= product.year%></td>
+              <td><%= product.ram%></td>
+              <td><%= product.external_storage%></td>
+            </tr>
+        <% end %>
+        </tbody>
     <% end %>
   </table>
 </div>

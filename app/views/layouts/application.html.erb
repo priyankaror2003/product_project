@@ -8,24 +8,28 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
-  <body>
-    <body>
+<body>
+<body>
+<%  %>
 <% if @current_user %>
-  Logged in as <%= current_user.email %>.
+    Logged in as <%= current_user.email %>
+
 <% else %>
-  <%= link_to "Sign Up", new_user_path %> or
-  <%= link_to "Log In", new_session_path %>
-  <%= link_to "Log Out", session_path("current"), method: "delete" %> 
+    <%= link_to "Sign Up", new_user_path %> or
+    <%= link_to "Log In", new_session_path %>
+    <%= link_to "Log Out", session_path("current"), method: "delete" %> |
+    <%= link_to "Refresh", products_path %> |
+
 
 <% end %>
-    <% flash.each do |name, msg| %>
-      <%= content_tag :div, msg, class: "alert alert-info" %>
-    <% end %>
+<% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: "alert alert-info" %>
+<% end %>
 
 <%= yield %>
 
 </body>
-  </body>
+</body>
 </html>
 
 
