@@ -22,7 +22,7 @@ class ProductsController < ApplicationController
       where_clause =  where_clause+(ram.present? ? " ram='#{ram}' and " : '')
       where_clause =  where_clause+(external_storage.present? ? " external_storage='#{external_storage}'  " : '')
       check_clause = where_clause.split()
-debugger
+
       if check_clause.last == "and"
         check_clause.pop
         where_clause = check_clause.join(" ")
